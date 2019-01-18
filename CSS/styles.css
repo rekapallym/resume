@@ -1,0 +1,190 @@
+body{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color: #cbf1f5;
+}
+ /* Global*/
+.container{
+  width: 80%;
+  margin: auto;   /* this will set everything to middle */
+  overflow: hidden;  /* this will make if content is more it will be hidden */
+}
+ /* header*/
+
+ header{
+   background-color: #3e3838;
+   color: #ffefe0;
+   padding-top: 20px;
+   min-height: 60px;
+   border-bottom: #ffefe0 2px solid;
+ }
+
+ header a {
+   color: #ffefe0;
+   text-decoration: none; /* To remove the line under links*/
+   text-transform: uppercase;
+   font-size: 16px;
+ }
+ header ul {
+   margin: 0;  /* removing the default padding for ul*/
+   padding:0 ;
+
+ }
+ header li{  /* horizontal isplay of the objects*/
+   float: left;
+   display: inline;
+   padding: 0 20px 0 20px; /* top right bottom left*/
+ }
+ #heading{
+  float:left;
+}
+ #heading h1 {
+  margin:0;
+}
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+header .highlight {
+  color: #f3a333;
+}
+header a:hover{
+  color: #f3a333;
+}
+
+/* showcase */
+#showcase{
+  min-height: 800px;
+  background: url(../images/show.jpg) no-repeat ;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+#showcase h1{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  color: #f7f7f7;
+  font-size: 85px;
+}
+#showcase p{
+  font-size: 40px;
+  color: #f7f7f7;
+}
+
+/* boxes*/
+#boxes{
+  margin-top : 30px;
+}
+#boxes .box{
+  float:left;
+  width: 30%;
+  padding: 10%;
+  text-align: center;
+}
+#boxes .box1{
+  float:right;
+  width: 30%;
+  padding: 10%;
+  text-align: center;
+}
+#boxes h1{
+  text-align: center;
+}
+
+/* Footer */
+footer{
+  padding: 10px;
+  margin-top: 10px;
+  color: #ffefe0;
+  background-color:#3e3838;
+  text-align: center;
+}
+
+
+/* About Me */
+#con{
+  font-family: 'Nunito Sans', sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+/* Contact Page */
+.foot{
+  position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ color: white;
+ text-align: center;
+}
+
+#contacts ul{
+  margin: 0 ;  /* removing the default padding for ul*/
+  padding:0 ;
+
+}
+#contacts li{  /* horizontal isplay of the objects*/
+width: 20px;
+height: 20px;
+margin-bottom: 0;
+margin-right: 10px;
+display: inline;
+}
+#con ul{
+  margin: 0;  /* removing the default padding for ul*/
+  padding:0 ;
+  font-style: font-family: 'Nunito Sans', sans-serif;
+}
+.linkresume{
+  text-align: center;
+  font-size: 2rem;
+margin-bottom: 0;
+}
+.linkresume a{
+  text-decoration: none;
+  color: #9873b9;
+}
+.linkresume a:hover{
+  color: #f3a333;
+}
+.thanks{
+  text-align: center;
+  font-size: 3rem;
+}
+.social a{
+  text-decoration: none;
+  color: black;
+}
+.social a:hover{
+color: #f3a333;
+}
+
+.linkdin{
+float: left;
+padding-left: 525px;
+padding-top: 20px;
+padding-right: 20px;
+
+}
+.email{
+float:left;
+padding: 20px;
+}
+.github{
+float:left;
+padding: 20px;
+}
+.facebook{
+float:left;
+padding: 20px;
+}
